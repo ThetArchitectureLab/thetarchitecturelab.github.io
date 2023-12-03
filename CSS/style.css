@@ -7,6 +7,7 @@ body{
     font-family: "belleza";
     background-color: #ffffff;
     user-select: none;
+    font-size: 1vw;
 }
 
 a{
@@ -16,7 +17,8 @@ a{
 
 .topbar{
     display: flex;
-    padding:10
+    padding:10px;
+    margin-bottom:1.5vh;
 }
 
 .links{
@@ -28,7 +30,7 @@ a{
 .link{
     font-family: "belleza";
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.7vw;
     text-decoration: none;
     color:black;
     padding: 1vw;
@@ -44,8 +46,8 @@ a{
 }
 
 .textbox{
-    width: 24vw;
-    font-size: 20px;
+    width: 28vw;
+    font-size: 1.4vw;
     text-align: left;
     align-items: right;
 }
