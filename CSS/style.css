@@ -23,8 +23,8 @@ a{
 
 .links{
     position: fixed;
-    right: 8%;
-    top: 10%;
+    right: 10vw;
+    top: 5vw;
 }
 
 .link{
@@ -54,12 +54,12 @@ a{
 
 .box{
     position: fixed;
-    font-size: 20px;
-    top: 22%;
-    right: 5%;
+    font-size: 1.7vw;
+    top: 10vw;
+    right: 5vw;
     padding:2vw;
     width:27vw;
-    height: 50vh;
+    height: 25vw;
     border:black;
     border-style: solid double double solid ;
 }
@@ -68,12 +68,12 @@ a{
     font-family: "belleza";
     filter: grayscale();
     justify-content: center;
-    text-align: center;
     display: inline-block;
-    width:21vw;
+    text-align: center;
+    width:20vw;
     border-radius: 5px;
     padding: 1vw;
-    margin-left: 1vw;
+    margin: .5vw;
     transition: all 0.4s ease-in-out;
 }
 
