@@ -1,3 +1,19 @@
+#warning-message { 
+    display: none;
+    text-align:center;
+    padding-top:45vh;
+    font-size:4vw;
+}
+
+@media only screen and (orientation:portrait){
+    #wrapper { display:none; }
+    #warning-message { display:block; }
+}
+@media only screen and (orientation:landscape){
+    #warning-message { display:none; }
+}
+
+
 @font-face {
     font-family: "belleza";
     src: url("/Fonts/Belleza-Regular.woff");
